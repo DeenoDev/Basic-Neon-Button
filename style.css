@@ -1,0 +1,28 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(2, 3, 46);
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    color: white;
+    background: transparent;
+    letter-spacing: 4px;
+    font-family: 'Lucida Sans';
+    transition: 0.4s linear;
+}
+
+a:hover {
+    background-color: rgb(7, 156, 190);
+    box-shadow: 0 0 10px rgb(7, 156, 190),
+                0 0 40px rgb(7, 156, 190),
+                0 0 80px rgb(7, 156, 190);
+    transition: 0.4s linear;
+
+}
